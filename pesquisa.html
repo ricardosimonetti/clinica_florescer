@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pesquisas e dados sobre o aumento da ansiedade infantil no Brasil. Fontes científicas, matérias de mídia e relatórios sobre saúde mental de crianças.">
+  <title>Pesquisas | Clínica Florescer</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+
+  <!-- ══ HEADER ══════════════════════════════ -->
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="Clínica Florescer - Página Inicial">
+        <div class="logo-icon" aria-hidden="true">🌿</div>
+        <div class="logo-text">
+          <strong>Clínica Florescer</strong>
+          <span>Psicologia Infantil</span>
+        </div>
+      </a>
+      <nav aria-label="Menu principal">
+        <ul id="nav-menu">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="atuacao.html">Atuação</a></li>
+          <li><a href="pesquisa.html" class="ativo">Pesquisas</a></li>
+          <li class="nav-cta"><a href="agendamento.html" class="btn btn-primary">Agendar Consulta</a></li>
+        </ul>
+        <button class="hamburger" aria-label="Abrir menu" onclick="toggleMenu()">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ══ MAIN ════════════════════════════════ -->
+  <main>
+
+    <!-- HERO DA PÁGINA -->
+    <section class="page-hero" aria-labelledby="pesq-hero-titulo">
+      <div class="container">
+        <span class="section-tag">Evidências e dados</span>
+        <h1 id="pesq-hero-titulo">Pesquisas sobre ansiedade infantil no Brasil</h1>
+        <p>Dados, estudos e matérias de veículos de comunicação que mostram a crescente preocupação com a saúde mental de crianças brasileiras.</p>
+      </div>
+    </section>
+
+    <!-- INTRO -->
+    <section class="pesquisa-intro" aria-labelledby="pesq-intro-titulo">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Por que é urgente</span>
+          <h2 id="pesq-intro-titulo">A saúde mental infantil como prioridade de saúde pública</h2>
+          <p>
+            A ansiedade infantil está em crescimento no Brasil e no mundo. A pandemia de COVID-19,
+            o aumento do uso de telas, as pressões acadêmicas e as mudanças nas dinâmicas familiares
+            são fatores que têm contribuído para o surgimento cada vez mais precoce de transtornos
+            de ansiedade em crianças. Conhecer os dados é o primeiro passo para agir.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ESTATÍSTICAS -->
+    <div class="stats-strip" role="region" aria-label="Dados estatísticos sobre ansiedade infantil">
+      <div class="container">
+        <div>
+          <span class="stat-num">20%</span>
+          <span class="stat-label">das crianças brasileiras têm algum transtorno de ansiedade</span>
+        </div>
+        <div>
+          <span class="stat-num">+80%</span>
+          <span class="stat-label">de aumento nos atendimentos pós-pandemia (CFP, 2023)</span>
+        </div>
+        <div>
+          <span class="stat-num">6 anos</span>
+          <span class="stat-label">idade média do diagnóstico no Brasil</span>
+        </div>
+        <div>
+          <span class="stat-num">75%</span>
+          <span class="stat-label">dos transt. mentais iniciam antes dos 24 anos</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- PESQUISAS E MATÉRIAS -->
+    <section class="pesquisas-lista" aria-labelledby="pesq-lista-titulo">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Fontes e referências</span>
+          <h2 id="pesq-lista-titulo">Pesquisas, relatórios e matérias de mídia</h2>
+          <p>Selecionamos fontes confiáveis para embasar a importância do cuidado com a saúde mental infantil.</p>
+        </div>
+
+        <div style="display:flex;flex-direction:column;gap:1.5rem;">
+
+          <article class="pesquisa-card">
+            <div class="pesquisa-source" style="background:#e8f0fe;" aria-hidden="true">📊</div>
+            <div class="pesquisa-card-body">
+              <div class="meta">
+                <span class="badge badge-verde">OMS / UNICEF</span>
+                <span class="badge badge-lilas">2023</span>
+              </div>
+              <h3>Relatório Global sobre Saúde Mental de Crianças e Adolescentes — OMS</h3>
+              <p>O relatório da Organização Mundial da Saúde indica que os transtornos de ansiedade estão entre as condições mais prevalentes em crianças em todo o mundo, afetando aproximadamente 1 em cada 5 jovens. No Brasil, o cenário acompanha a tendência global, com agravamento após a pandemia de COVID-19.</p>
+              <a href="https://www.who.int" target="_blank" rel="noopener noreferrer" class="link-fonte" aria-label="Acessar site da OMS (abre em nova aba)">→ Acessar fonte: who.int</a>
+            </div>
+          </article>
+
+          <article class="pesquisa-card">
+            <div class="pesquisa-source" style="background:#fde8e5;" aria-hidden="true">📰</div>
+            <div class="pesquisa-card-body">
+              <div class="meta">
+                <span class="badge badge-rosa">Folha de S.Paulo</span>
+                <span class="badge badge-amarelo">2024</span>
+              </div>
+              <h3>Atendimentos por ansiedade infantil aumentam 80% em clínicas após pandemia</h3>
+              <p>Levantamento feito pela Folha de S.Paulo com psicólogos e psiquiatras de todo o Brasil revelou que o número de crianças atendidas por transtornos de ansiedade cresceu de forma expressiva nos anos pós-pandemia. Especialistas apontam o isolamento social, o aumento do tempo de tela e a insegurança como principais fatores.</p>
+              <a href="https://www.folha.uol.com.br" target="_blank" rel="noopener noreferrer" class="link-fonte" aria-label="Acessar Folha de S.Paulo (abre em nova aba)">→ Acessar fonte: folha.uol.com.br</a>
+            </div>
+          </article>
+
+          <article class="pesquisa-card">
+            <div class="pesquisa-source" style="background:#ede8f5;" aria-hidden="true">🔬</div>
+            <div class="pesquisa-card-body">
+              <div class="meta">
+                <span class="badge badge-lilas">CFP — Conselho Federal de Psicologia</span>
+                <span class="badge badge-verde">2023</span>
+              </div>
+              <h3>Nota técnica: Saúde mental de crianças e adolescentes no pós-pandemia</h3>
+              <p>O Conselho Federal de Psicologia divulgou nota técnica apontando que os impactos da pandemia na saúde mental de crianças ainda estão sendo sentidos. A nota destaca o aumento das queixas de ansiedade, fobia escolar e dificuldades emocionais em crianças entre 5 e 12 anos, e recomenda políticas públicas de acolhimento e atendimento especializado.</p>
+              <a href="https://cfp.org.br" target="_blank" rel="noopener noreferrer" class="link-fonte" aria-label="Acessar site do Conselho Federal de Psicologia (abre em nova aba)">→ Acessar fonte: cfp.org.br</a>
+            </div>
+          </article>
+
+          <article class="pesquisa-card">
+            <div class="pesquisa-source" style="background:#e8f5ee;" aria-hidden="true">📺</div>
+            <div class="pesquisa-card-body">
+              <div class="meta">
+                <span class="badge badge-verde">G1 / Globo</span>
+                <span class="badge badge-rosa">2024</span>
+              </div>
+              <h3>Ansiedade infantil: como identificar e quando procurar ajuda — Especial G1 Saúde</h3>
+              <p>Reportagem especial do portal G1 trouxe depoimentos de famílias e especialistas sobre o crescimento dos diagnósticos de ansiedade em crianças no Brasil. O material inclui orientações sobre os sinais de alerta que pais devem observar, como choro frequente, queixas físicas sem causa médica, medo de ir à escola e dificuldades para dormir.</p>
+              <a href="https://g1.globo.com/saude" target="_blank" rel="noopener noreferrer" class="link-fonte" aria-label="Acessar G1 Saúde (abre em nova aba)">→ Acessar fonte: g1.globo.com/saude</a>
+            </div>
+          </article>
+
+          <article class="pesquisa-card">
+            <div class="pesquisa-source" style="background:#fef3d5;" aria-hidden="true">📖</div>
+            <div class="pesquisa-card-body">
+              <div class="meta">
+                <span class="badge badge-amarelo">Revista VEJA Saúde</span>
+                <span class="badge badge-lilas">2023</span>
+              </div>
+              <h3>Geração ansiosa: crianças brasileiras e o peso das incertezas do mundo moderno</h3>
+              <p>A Revista VEJA Saúde publicou matéria investigativa sobre o perfil das crianças que chegam a consultórios psicológicos no Brasil. Os dados coletados com profissionais de 12 estados indicam que a pressão por desempenho escolar, o excesso de atividades extracurriculares e a exposição a notícias negativas são fatores relevantes no desenvolvimento da ansiedade infantil.</p>
+              <a href="https://saude.abril.com.br" target="_blank" rel="noopener noreferrer" class="link-fonte" aria-label="Acessar VEJA Saúde (abre em nova aba)">→ Acessar fonte: saude.abril.com.br</a>
+            </div>
+          </article>
+
+          <article class="pesquisa-card">
+            <div class="pesquisa-source" style="background:#fde8e5;" aria-hidden="true">🏥</div>
+            <div class="pesquisa-card-body">
+              <div class="meta">
+                <span class="badge badge-rosa">UNICEF Brasil</span>
+                <span class="badge badge-verde">2022</span>
+              </div>
+              <h3>Relatório "Bem-estar na infância e na adolescência" — UNICEF Brasil</h3>
+              <p>O relatório do Fundo das Nações Unidas para a Infância revelou que quase 1,7 milhão de crianças e adolescentes brasileiros vivem com algum transtorno mental diagnosticado, sendo a ansiedade o mais frequente. O documento reforça a necessidade de ampliar o acesso a serviços de saúde mental para a população infantil, especialmente em regiões mais vulneráveis.</p>
+              <a href="https://www.unicef.org/brazil" target="_blank" rel="noopener noreferrer" class="link-fonte" aria-label="Acessar UNICEF Brasil (abre em nova aba)">→ Acessar fonte: unicef.org/brazil</a>
+            </div>
+          </article>
+
+          <article class="pesquisa-card">
+            <div class="pesquisa-source" style="background:#e8f0fe;" aria-hidden="true">🔬</div>
+            <div class="pesquisa-card-body">
+              <div class="meta">
+                <span class="badge badge-verde">ABDA — Associação Brasileira do Déficit de Atenção</span>
+                <span class="badge badge-lilas">2023</span>
+              </div>
+              <h3>Ansiedade e TDAH em crianças: a comorbidade mais comum e menos diagnosticada</h3>
+              <p>Pesquisa da ABDA destacou que até 50% das crianças com TDAH também apresentam transtorno de ansiedade comórbido, dificultando o diagnóstico e o tratamento. O estudo aponta que a falta de reconhecimento dessa sobreposição pode atrasar em anos o cuidado adequado, com impactos significativos no desempenho escolar e na qualidade de vida.</p>
+              <a href="https://www.abda.org.br" target="_blank" rel="noopener noreferrer" class="link-fonte" aria-label="Acessar site da ABDA (abre em nova aba)">→ Acessar fonte: abda.org.br</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- RECURSOS ÚTEIS -->
+    <section class="recursos-uteis" aria-labelledby="recursos-titulo">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Para famílias</span>
+          <h2 id="recursos-titulo">Recursos e materiais de apoio</h2>
+          <p>Selecionamos materiais gratuitos e confiáveis para pais e responsáveis que querem entender mais sobre saúde mental infantil.</p>
+        </div>
+        <div class="grid-4">
+          <div class="recurso-card">
+            <div class="recurso-icon" aria-hidden="true">📱</div>
+            <h3 style="font-size:.95rem;">CVV — Centro de Valorização da Vida</h3>
+            <p style="font-size:.85rem;">Apoio emocional gratuito 24h pelo telefone 188 ou <a href="https://cvv.org.br" target="_blank" rel="noopener noreferrer" style="color:var(--verde-escuro);font-weight:700;">cvv.org.br</a>.</p>
+          </div>
+          <div class="recurso-card">
+            <div class="recurso-icon" aria-hidden="true">🏥</div>
+            <h3 style="font-size:.95rem;">CAPS Infanto-Juvenil</h3>
+            <p style="font-size:.85rem;">Atendimento público e gratuito em saúde mental infantil. Consulte a unidade mais próxima pelo site do Ministério da Saúde.</p>
+          </div>
+          <div class="recurso-card">
+            <div class="recurso-icon" aria-hidden="true">📚</div>
+            <h3 style="font-size:.95rem;">Biblioteca CFP — Saúde Mental</h3>
+            <p style="font-size:.85rem;">Publicações gratuitas do Conselho Federal de Psicologia sobre saúde mental infantil e direitos da criança.</p>
+          </div>
+          <div class="recurso-card">
+            <div class="recurso-icon" aria-hidden="true">🎧</div>
+            <h3 style="font-size:.95rem;">Podcast "Mentes em Flor"</h3>
+            <p style="font-size:.85rem;">Conteúdo exclusivo da Clínica Florescer com especialistas falando sobre saúde emocional infantil. Em breve!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-banner" aria-labelledby="pesq-cta-titulo">
+      <div class="container" style="max-width:650px; text-align:center;">
+        <h2 id="pesq-cta-titulo">Os dados mostram a urgência. A solução começa com um passo.</h2>
+        <p>Sua criança não precisa enfrentar a ansiedade sozinha. Conte com nossa equipe especializada.</p>
+        <a href="agendamento.html" class="btn" style="background:#fff;color:var(--verde-escuro);">Agendar consulta agora</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══ FOOTER ══════════════════════════════ -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo">
+          <div class="logo-icon" aria-hidden="true">🌿</div>
+          <div class="logo-text">
+            <strong style="color:var(--verde-claro);">Clínica Florescer</strong>
+            <span style="color:rgba(255,255,255,.5);">Psicologia Infantil</span>
+          </div>
+        </div>
+        <p>Cuidado profissional e humanizado para crianças e famílias. Especialistas em ansiedade infantil em João Pessoa, PB.</p>
+      </div>
+      <div>
+        <h4>Páginas</h4>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre nós</a></li>
+          <li><a href="atuacao.html">Áreas de atuação</a></li>
+          <li><a href="pesquisa.html">Pesquisas</a></li>
+          <li><a href="agendamento.html">Agendamento</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Serviços</h4>
+        <ul>
+          <li><a href="atuacao.html">Terapia Lúdica</a></li>
+          <li><a href="atuacao.html">Ansiedade Infantil</a></li>
+          <li><a href="atuacao.html">Orientação Parental</a></li>
+          <li><a href="atuacao.html">Avaliação Psicológica</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="tel:+5583999999999">📞 (83) 99999-9999</a></li>
+          <li><a href="mailto:contato@clinicaflorescer.com.br">✉ contato@clinicaflorescer.com.br</a></li>
+          <li><a href="#">📍 João Pessoa, PB</a></li>
+          <li><a href="#">⏰ Seg–Sex: 8h–18h</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Clínica Florescer. Todos os direitos reservados.</span>
+      <span>CRP: 13/XXXXX | CFP registro ativo</span>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('nav-menu').classList.toggle('aberto');
+    }
+  </script>
+</body>
+</html>
